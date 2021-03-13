@@ -2,7 +2,7 @@
 SheHacks'21
 
 
-Developers face a myriad of physical and mental health challenges in today’s world, whether it’s wrist and back pain, migraines, eye strain, loss of motivation, or trouble focusing. We are building a flutter app which will take a survey and then suggest physical exercises for programmers to stay healthy
+Developers face a myriad of physical and mental health challenges in today’s world, whether it’s wrist and back pain, migraines, eye strain, loss of motivation, or trouble focusing. We are building a flutter app which will take a survey and then suggest physical exercises for programmers to stay healthy.
 
 ### Screenshots:
 ![homepage](ss/front.png)
