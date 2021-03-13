@@ -1,0 +1,35 @@
+name: questionnaires
+description: A Flutter app for health concious programmers
+version: 1.0.0+1
+author: Vibali
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.18.0
+  adobe_xd: ^1.0.0+1
+  cupertino_icons: ^0.1.3
+  grouped_buttons: ^1.0.4
+  dots_indicator: ^1.1.0
+  flutter_launcher_icons: ^0.7.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+  assets:
+   - assets/questionnaires/
+   - assets/images/coder.jpg
+   - assets/images/clock.png
+   - assets/images/lady.png
+
+flutter_icons:
+  android: "ic_launcher" 
+  ios: true
+  image_path: "assets_dev/app_icon.png"

@@ -1,0 +1,178 @@
+{
+    "name": "How tired are you?",
+    "instructions": "",
+    "questions": [
+        {
+            "text": "How long did you work on the screen? ",
+            "answers": [
+                {
+                    "text": "More than 8 hours",
+                    "score": 1
+                },
+                {
+                    "text": "Between 5 to 8 hours",
+                    "score": 1
+                },
+                {
+                    "text": "Between 3 to 5 hours ",
+                    "score": 1
+                },
+                {
+                    "text": "Between 1 to 3 hour",
+                    "score": 1
+                },
+                {
+                    "text": "Less than an hour",
+                    "score": 1
+                }
+            ]
+        },
+        {
+            "text": "Does your head ache?",
+            "answers": [
+                {
+                    "text": "Strongly Agree",
+                    "score": 20
+                },
+                {
+                    "text": "Slightly Agree",
+                    "score": 10
+                },
+                {
+                    "text": "Neutral",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "text": "Are your eyes burning?",
+            "answers": [
+                {
+                    "text": "Strongly agree",
+                    "score": 20
+                },
+                {
+                    "text": "Slightly agree",
+                    "score": 10
+                },
+                {
+                    "text": "Neutral",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "text": "Are your eyes feeling dry?",
+            "answers": [
+                {
+                    "text": "Strongly agree",
+                    "score": 20
+                },
+                {
+                    "text": "Slightly agree",
+                    "score": 10
+                },
+                {
+                    "text": "Neutral",
+                    "score": 10
+                }
+
+            ]
+        },
+        {
+            "text": "Is your vision blurred?",
+            "answers": [
+                {
+                    "text": "Strongly agree",
+                    "score": 20
+                },
+                {
+                    "text": "Slightly agree",
+                    "score": 10
+                },
+                {
+                    "text": "Neutral",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "text": "Is your neck stiff?",
+            "answers": [
+                {
+                    "text": "Strongly agree",
+                    "score": -20
+                },
+                {
+                    "text": "Slightly agree",
+                    "score": -10
+                },
+                {
+                    "text": "Neutral",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "text": "Is your back aching or is stiff?",
+            "answers": [
+                {
+                    "text": "Strongly agree",
+                    "score": -50
+                },
+                {
+                    "text": "Slightly agree",
+                    "score": -40
+                },
+                {
+                    "text": "Neutral",
+                    "score": 0
+                }
+            ]
+        },
+        {
+            "text": "Are you sitting or standing?",
+            "answers": [
+                {
+                    "text": "Sitting",
+                    "score": 0
+                },
+                {
+                    "text": "Standing",
+                    "score": 0
+                }
+            ]
+        }
+    ],
+    "interpretations": [
+        {
+            "score": 81,
+            "text": "You have the symptoms of Computer Screen Syndrome! Try these exercises"
+
+        },
+        {
+            "score": 26,
+            "text": "You have the symptoms of Computer Screen Syndrome! Try these exercises"
+        },
+        {
+            "score": 21,
+            "text": "You have the symptoms of Computer Screen Syndrome! Try these exercises"
+        },
+        {
+            "score": 20,
+            "text": "You have the symptoms of Computer Screen Syndrome! Try these exercises"
+        },
+        {
+            "score": 15,
+            "text": "You have the symptoms of Computer Screen Syndrome! Try these exercises"
+        },
+        {
+            "score": 10,
+            "text": "You have the symptoms of Computer Screen Syndrome! Try these exercises"
+        },
+        {
+            "score": 5,
+            "text": "You have the symptoms of Computer Screen Syndrome! Try these exercises"
+        }
+    ]
+}
