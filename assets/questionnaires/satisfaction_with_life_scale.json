@@ -7,23 +7,23 @@
             "answers": [
                 {
                     "text": "More than 8 hours",
-                    "score": 1
+                    "score": 0
                 },
                 {
                     "text": "Between 5 to 8 hours",
-                    "score": 1
+                    "score": 0
                 },
                 {
                     "text": "Between 3 to 5 hours ",
-                    "score": 1
+                    "score": 0
                 },
                 {
                     "text": "Between 1 to 3 hour",
-                    "score": 1
+                    "score": 0
                 },
                 {
                     "text": "Less than an hour",
-                    "score": 1
+                    "score": 0
                 }
             ]
         },
@@ -32,7 +32,7 @@
             "answers": [
                 {
                     "text": "Strongly Agree",
-                    "score": 20
+                    "score": 10
                 },
                 {
                     "text": "Slightly Agree",
@@ -49,11 +49,11 @@
             "answers": [
                 {
                     "text": "Strongly agree",
-                    "score": 20
+                    "score": 40
                 },
                 {
                     "text": "Slightly agree",
-                    "score": 10
+                    "score": 40
                 },
                 {
                     "text": "Neutral",
@@ -66,15 +66,15 @@
             "answers": [
                 {
                     "text": "Strongly agree",
-                    "score": 20
+                    "score": 400
                 },
                 {
                     "text": "Slightly agree",
-                    "score": 10
+                    "score": 400
                 },
                 {
                     "text": "Neutral",
-                    "score": 10
+                    "score": 0
                 }
 
             ]
@@ -84,11 +84,11 @@
             "answers": [
                 {
                     "text": "Strongly agree",
-                    "score": 20
+                    "score": 4000
                 },
                 {
                     "text": "Slightly agree",
-                    "score": 10
+                    "score": 4000
                 },
                 {
                     "text": "Neutral",
@@ -101,11 +101,11 @@
             "answers": [
                 {
                     "text": "Strongly agree",
-                    "score": -20
+                    "score": 40000
                 },
                 {
                     "text": "Slightly agree",
-                    "score": -10
+                    "score": 40000
                 },
                 {
                     "text": "Neutral",
@@ -118,11 +118,11 @@
             "answers": [
                 {
                     "text": "Strongly agree",
-                    "score": -50
+                    "score": 50000
                 },
                 {
                     "text": "Slightly agree",
-                    "score": -40
+                    "score": 50000
                 },
                 {
                     "text": "Neutral",
@@ -146,33 +146,142 @@
     ],
     "interpretations": [
         {
-            "score": 81,
+            "score": 10,
             "text": "You have the symptoms of Computer Screen Syndrome! Try these exercises"
 
         },
         {
-            "score": 26,
+            "score": 40,
             "text": "You have the symptoms of Computer Screen Syndrome! Try these exercises"
         },
         {
-            "score": 21,
+            "score": 400,
             "text": "You have the symptoms of Computer Screen Syndrome! Try these exercises"
         },
         {
-            "score": 20,
+            "score": 4000,
             "text": "You have the symptoms of Computer Screen Syndrome! Try these exercises"
         },
         {
-            "score": 15,
+            "score": 50,
             "text": "You have the symptoms of Computer Screen Syndrome! Try these exercises"
         },
         {
-            "score": 10,
+            "score": 4450,
             "text": "You have the symptoms of Computer Screen Syndrome! Try these exercises"
         },
         {
-            "score": 5,
+            "score": 440,
+            "text": "You have the symptoms of Computer Screen Syndrome!  Try these exercises"
+        },
+        {
+            "score": 4400,
             "text": "You have the symptoms of Computer Screen Syndrome! Try these exercises"
+        },
+        {
+            "score": 4040,
+            "text": "You have the symptoms of Computer Screen Syndrome! Try these exercises"
+        },
+        {
+            "score": 4010,
+            "text": "You have the symptoms of Computer Screen Syndrome! Try these exercises"
+        },
+        {
+            "score": 40000,
+            "text": "You have the symptoms of neck pain! Try these exercises"
+        },
+        {
+            "score": 50000,
+            "text": "You have the symptoms of neck pain! Try these exercises"
+        },
+        {
+            "score": 90000,
+            "text": "You have the symptoms of neck pain! Try these exercises"
+        },
+        {
+            "score": 40010,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
+        },
+        {
+            "score": 40050,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
+        },
+        {
+            "score": 44450,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
+        },
+        {
+            "score": 40440,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
+        },
+        {
+            "score": 44400,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
+        },
+        {
+            "score": 44040,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
+        },
+        {
+            "score": 44010,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
+        },
+        {
+            "score": 54450,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
+        },
+        {
+            "score": 50010,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
+        },
+        {
+            "score": 50050,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
+        },
+        {
+            "score": 50440,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
+        },
+        {
+            "score": 54400,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
+        },
+        {
+            "score": 54040,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
+        },
+        {
+            "score": 54010,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
+        },
+        {
+            "score": 90010,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
+        },
+        {
+            "score": 90050,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
+        },
+        {
+            "score": 94450,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
+        },
+        {
+            "score": 94010,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
+        },
+        {
+            "score":90440,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
+        },
+        {
+            "score": 94400,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
+        },
+        {
+            "score": 94040,
+            "text": "You have the symptoms of Computer Screen Syndrome and neck pain! Try these exercises"
         }
+
     ]
 }

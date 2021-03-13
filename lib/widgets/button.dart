@@ -18,7 +18,7 @@ class Button extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return RaisedButton(
-      color: isPrimary ? Theme.of(context).primaryColor : Theme.of(context).accentColor,
+      color: isPrimary ? Theme.of(context).primaryColor : Theme.of(context).primaryColor,
       shape: isPrimary
           ? null
           : RoundedRectangleBorder(

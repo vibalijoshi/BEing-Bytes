@@ -28,6 +28,10 @@ flutter:
    - assets/images/coder.jpg
    - assets/images/clock.png
    - assets/images/lady.png
+   - assets/images/front.PNG
+   - assets/images/before.png
+   - assets/images/thinking.png
+   - assets/images/rest.png
 
 flutter_icons:
   android: "ic_launcher" 

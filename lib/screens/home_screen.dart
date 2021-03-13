@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:questionnaires/configs/app_colors.dart';
 import 'package:questionnaires/enums/questionnaire_type.dart';
 import 'package:questionnaires/models/questionnaire.dart';
 import 'package:questionnaires/screens/questionnaire_screen.dart';
@@ -43,16 +44,38 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.black,
       body: FutureBuilder(
         future: loadAllQuestionnairesFuture,
         builder: (BuildContext context, AsyncSnapshot snapshot) {
           if (snapshot.hasData && snapshot.data == true) {
             return Center(
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
+                  Image.asset('assets/images/before.png',
+                      height: 300,
+
+                      fit:BoxFit.fill),
                   for (Questionnaire questionnaire in questionnaires)
-                    Button.accent(
-                      buttonLabel: questionnaire.name,
+                    ElevatedButton(
+
+                      style: ButtonStyle(
+                        padding: MaterialStateProperty.all(
+                            EdgeInsets.only(top: 50.0, bottom: 50.0, left: 20.0, right: 20.0)),
+                        backgroundColor: MaterialStateProperty.resolveWith<Color>(
+                              (Set<MaterialState> states) {
+                            return AppColors.green;// Use the component's default.
+                          },
+                        ),
+
+                      ),
+                      child: Text('Your Workout Plan',
+                        style: new TextStyle(
+                          fontSize: 40.0,
+                        ),
+                      ),
+
                       onPressed: () => Navigator.of(context).push(
                         MaterialPageRoute(
                           builder: (context) => QuestionnaireScreen(
@@ -60,7 +83,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         ),
                       ),
-                    )
+                    ),
                 ],
               ),
             );

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:questionnaires/configs/app_colors.dart';
-import 'package:questionnaires/screens/home_screen.dart';
-import 'package:questionnaires/GooglePixel51.dart';
+import 'package:questionnaires/XDGooglePixel44XL1.dart';
+
 
 import 'configs/app_colors.dart';
 
@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
         ),
         disabledColor: AppColors.lightgray,
       ),
-      home: GooglePixel51(),
+      home: XDGooglePixel44XL1(),
     );
   }
 }

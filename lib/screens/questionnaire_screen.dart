@@ -41,7 +41,7 @@ class _QuestionnaireScreenState extends State<QuestionnaireScreen> {
     // determine interpretation for result
     List<Interpretation> interpretations = widget.questionnaire.interpretations;
     for (Interpretation interpretation in interpretations) {
-      if (result >= interpretation.score) {
+      if (result == interpretation.score) {
         return interpretation.text;
       }
     }
@@ -69,7 +69,7 @@ class _QuestionnaireScreenState extends State<QuestionnaireScreen> {
           child: Column(
             children: <Widget>[
               Padding(
-                padding: const EdgeInsets.only(left: 20.0, right: 20.0, top: 20.0),
+                padding: const EdgeInsets.only(left: 20.0, right: 20.0, top: 150.0),
                 child: Text(
                   instructions,
                   textAlign: TextAlign.justify,
@@ -109,7 +109,7 @@ class _QuestionnaireScreenState extends State<QuestionnaireScreen> {
                         padding: const EdgeInsets.only(left: 30.0, right: 8.0),
                         child: Text(
                           currentQuestion.text,
-                          style: TextStyle(fontSize: 20,
+                          style: TextStyle(fontSize: 40,
                               fontWeight: FontWeight.w700,
                               color: Colors.white,
                           ),
@@ -120,6 +120,9 @@ class _QuestionnaireScreenState extends State<QuestionnaireScreen> {
                         height: 24,
                       ),
                       RadioButtonGroup(
+                        labelStyle: TextStyle(
+                          fontSize: 30.0,
+                        ),
                         activeColor: Theme.of(context).primaryColor,
                         labels: currentQuestion.answers.map((answer) => answer.text).toList(),
                         onChange: (_, answerIndex) => setState(() {
